@@ -56,15 +56,47 @@
 		845E1A44268885A2005B77F2 /* MVVM-Binding-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				845E1A59268885B2005B77F2 /* Delegate */,
+				845E1A5C268885E8005B77F2 /* Controller */,
+				845E1A5A268885C5005B77F2 /* Storyboard */,
+				845E1A5B268885D5005B77F2 /* Global */,
+			);
+			path = "MVVM-Binding-Practice";
+			sourceTree = "<group>";
+		};
+		845E1A59268885B2005B77F2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
 				845E1A45268885A2005B77F2 /* AppDelegate.swift */,
 				845E1A47268885A2005B77F2 /* SceneDelegate.swift */,
-				845E1A49268885A2005B77F2 /* ViewController.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		845E1A5A268885C5005B77F2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				845E1A4B268885A2005B77F2 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		845E1A5B268885D5005B77F2 /* Global */ = {
+			isa = PBXGroup;
+			children = (
 				845E1A4E268885A8005B77F2 /* Assets.xcassets */,
 				845E1A50268885A8005B77F2 /* LaunchScreen.storyboard */,
 				845E1A53268885A8005B77F2 /* Info.plist */,
 			);
-			path = "MVVM-Binding-Practice";
+			path = Global;
+			sourceTree = "<group>";
+		};
+		845E1A5C268885E8005B77F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				845E1A49268885A2005B77F2 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MVVM-Binding-Practice/Info.plist";
+				INFOPLIST_FILE = "MVVM-Binding-Practice/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MVVM-Binding-Practice/Info.plist";
+				INFOPLIST_FILE = "MVVM-Binding-Practice/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
